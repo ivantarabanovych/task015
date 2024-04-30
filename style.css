@@ -17,8 +17,8 @@ body{
 
 .rectangle{
     display: flex;
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
     position: relative;
     border: 10px solid rgb(255, 251, 0);
     text-align: center;
@@ -29,6 +29,12 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
-    color: rgb(198, 200, 202);
+    color: rgb(255, 255, 255);
     text-shadow:  4px 0px 4px black;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-property: all;
+    opacity: .5;
+    transition-timing-function: ease-in-out;
 }
+
