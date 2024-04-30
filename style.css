@@ -36,5 +36,20 @@ body{
     transition-property: all;
     opacity: .5;
     transition-timing-function: ease-in-out;
+    
 }
 
+.rectangle:hover{
+    width: 700px;
+    height: 700px;
+    font-size: 6rem;
+    opacity: 1;
+    border-radius: 10px;
+    border-color: rgb(190, 2, 247);
+    transform: rotate(90deg);
+}
+
+.rectangle p:hover{
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
